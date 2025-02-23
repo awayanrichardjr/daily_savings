@@ -1,0 +1,36 @@
+.savings {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    box-shadow: 1px 1px 2px lightgrey;
+}
+
+.savings :where(.action) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.savings :where(a) {
+    color: grey;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.2rem;
+    font-size: 14px;
+}
+
+.savings :where(a:hover) {
+    color: black;
+    /* background-color: whitesmoke; */
+}
+
+.savings :where(a span) {
+    transition: 0.3s;
+}
+
+.savings :where(a span:hover) {
+    color: white;
+    background-color: lightgrey;
+    border-radius: 100%;
+}
