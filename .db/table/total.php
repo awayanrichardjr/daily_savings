@@ -1,5 +1,5 @@
 <?php
-$sql = "CREATE TABLE total (
+$sql = "CREATE TABLE IF NOT EXISTS total (
     total_id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     total_cost INT(255) NOT NULL,
     total_payment INT(255) NOT NULL,
