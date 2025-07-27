@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-include '../web/index.php';
-include '../web/nav.php';
+include '../view/index.php';
+include '../view/nav.php';
 include '../table/expenses_thead.php';
 
 $sql = "SELECT *, (exp_cost-exp_payment) AS exp_balance FROM expenses";

@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-include '../web/index.php';
-include '../web/nav.php';
+include '../view/index.php';
+include '../view/nav.php';
 
 $sql = "SELECT SUM(save_savings) AS save_total FROM savings";
 

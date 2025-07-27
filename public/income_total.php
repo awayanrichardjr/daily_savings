@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-include '../web/index.php';
-include '../web/nav.php';
+include '../view/index.php';
+include '../view/nav.php';
 
 $sql = "SELECT SUM(income_cap) AS income_fund, SUM(income_inc) AS income_total FROM income";
 

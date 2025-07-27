@@ -1,11 +1,11 @@
 <!-- global  -->
 <link rel="stylesheet" href="../ui/css/global/global.css">
 
-<!-- web  -->
-<link rel="stylesheet" href="../ui/css/web/nav.css">
-<link rel="stylesheet" href="../ui/css/web/header.css">
-<link rel="stylesheet" href="../ui/css/web/main.css">
-<link rel="stylesheet" href="../ui/css/web/footer.css">
+<!-- view  -->
+<link rel="stylesheet" href="../ui/css/view/nav.css">
+<link rel="stylesheet" href="../ui/css/view/header.css">
+<link rel="stylesheet" href="../ui/css/view/main.css">
+<link rel="stylesheet" href="../ui/css/view/footer.css">
 
 <link rel="stylesheet" href="../ui/css/table/income.css">
 <link rel="stylesheet" href="../ui/css/table/expenses.css">

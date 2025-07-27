@@ -1,6 +1,6 @@
 <?php
-include '../web/index.php';
-include '../web/nav.php';
+include '../view/index.php';
+include '../view/nav.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -23,6 +23,5 @@ VALUES ('$exp_person','$exp_item','$exp_cost','$exp_payment','$exp_balance','$ex
         header('location: form_expenses.php?error');
         $conn->close();
     }
-
 }
 include '../form/expenses.php';
